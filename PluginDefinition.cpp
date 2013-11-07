@@ -24,14 +24,14 @@ float Parameter::GetScaledValue() const {
 
 static CFFGLPluginInfo PluginInfo ( 
 	ShaderPlugin::CreateInstance,	// Create method
-                                   "perlinFFGL",								// Plugin unique ID
-                                   "perlinFFGL",					// Plugin name
+                                   "perlinLightningFFGL",								// Plugin unique ID
+                                   "perlinLightningFFGL",					// Plugin name
                                    1,						   			// API major version number
                                    500,								  // API minor version number
                                    0,										// Plugin major version number
                                    002,									// Plugin minor version number
                                    FF_SOURCE,						// Plugin type
-                                   "perlin noise generator",	// Plugin description
+                                   "multiscale perlin noise generator",	// Plugin description
                                    "by Nathan Lachenmyer (morphogen)" // About
 );
 
